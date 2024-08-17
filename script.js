@@ -54,6 +54,9 @@ let getUser =() =>{
          // console.log(data.avatar);
          // console.log(data.employment.title);
          // console.log(data.address.city);
+         //////
+
+         console.log("hello world ");
 
          imgContainer.innerHTML =`<img src = ${data.avatar}
          >`;
